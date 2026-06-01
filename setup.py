@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': ['move_robot = simple_robot_motion.move_robot:main',
+                            'path_follower = simple_robot_motion.path_follower:main',
         ],
     },
 )
